@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        @apply leading-relaxed;
+    }
+
+    a {
+        @apply no-underline;
+    }
+}
+
+@layer components {
+    .prose a {
+        @apply text-gray-900 underline decoration-gray-300 underline-offset-2;
+    }
+
+    .prose a:hover {
+        @apply text-black decoration-gray-500;
+    }
+}
