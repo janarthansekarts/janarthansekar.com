@@ -3,10 +3,5 @@
     "description": "Personal website of Janarthansekar Sekar",
     "require": {
         "tightenco/jigsaw": "^1.7"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "php vendor/bin/jigsaw init"
-        ]
     }
 }
