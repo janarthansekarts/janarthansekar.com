@@ -1,5 +1,5 @@
 [build]
-command = "composer install --no-dev --prefer-dist --no-interaction && npm install && npm run prod && vendor/bin/jigsaw build production"
+command = "composer install --no-dev --prefer-dist --no-interaction && npm install && npm run build"
 publish = "build_production"
 
 [build.environment]
